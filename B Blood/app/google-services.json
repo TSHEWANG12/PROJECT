@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "167990498004",
+    "project_id": "bhutan-blood",
+    "storage_bucket": "bhutan-blood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167990498004:android:67b2a0c2fce69e51fc2141",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167990498004-5ileusfek7g1p429jtu92dpitut3g0kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-lKO6NhyMdzGxwiTZQu7O_aMlnnDyvJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167990498004-5ileusfek7g1p429jtu92dpitut3g0kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
