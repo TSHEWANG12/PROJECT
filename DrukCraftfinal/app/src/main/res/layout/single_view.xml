@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="2dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="fitXY"
+        android:layout_margin="1dp"
+        android:id="@+id/image_single_view"/>
+    <TextView
+        android:id="@+id/textView_single_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="260dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/textView_single_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/like_btn"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_baseline_thumb_up_24" />
+
+        <TextView
+            android:id="@+id/likes_textview"
+            android:layout_width="60dp"
+            android:layout_height="34dp"
+            android:gravity="center"
+            android:text="Likes"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

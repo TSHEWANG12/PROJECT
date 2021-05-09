@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="258dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="Druk FunCraft"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="296dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="404dp"
+        android:drawableEnd="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:background="@drawable/custom_input"
+        android:paddingEnd="15dp"
+        android:paddingStart="18dp"
+        android:drawablePadding="-80dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="296dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="308dp"
+        android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+        android:ems="10"
+        android:hint="Password"
+        android:background="@drawable/custom_input"
+        android:paddingEnd="15dp"
+        android:paddingStart="18dp"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail"
+        app:layout_constraintVertical_bias="0.263" />
+
+    <Button
+        android:id="@+id/Loginbtn"
+        android:layout_width="229dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/custom_button"
+        android:text="Login"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <TextView
+        android:id="@+id/btnSignup"
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/custom_input"
+        android:gravity="center"
+        android:text="Sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Loginbtn"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <TextView
+        android:id="@+id/Forgotpassword"
+        android:layout_width="123dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:gravity="center"
+        android:text="Forgot Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="192dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Don't have an Account?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSignup"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Loginbtn"
+        app:layout_constraintVertical_bias="0.305" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:text="Upload Photos for advertisement"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/imageViewAdd"/>
+
+    <EditText
+        android:id="@+id/inputImageName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageViewAdd"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Enter the image name" />
+
+    <EditText
+        android:id="@+id/inputAddress"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputImageName"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Enter the address" />
+
+    <EditText
+        android:id="@+id/inputContact"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputAddress"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="phone"
+        android:hint="contact" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewProgress"
+        android:layout_below="@+id/inputContact"
+        android:gravity="center"
+        android:text="0.0 %"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/textviewProgress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="11dp"
+        android:text="Upload" />
+
+</RelativeLayout>

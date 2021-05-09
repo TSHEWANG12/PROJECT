@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625511114039",
+    "project_id": "drukcraftfinal",
+    "storage_bucket": "drukcraftfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625511114039:android:21fbc74487d968869c26b2",
+        "android_client_info": {
+          "package_name": "com.gcit.drukcraftfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625511114039-ulqd58ihsp9lnemspqhafh1m3rjl55fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-9k1EYf7wTzy2rKBHzLLy8NktHU4y-lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625511114039-ulqd58ihsp9lnemspqhafh1m3rjl55fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
