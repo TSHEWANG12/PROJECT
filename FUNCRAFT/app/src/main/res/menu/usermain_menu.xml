@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeid"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/pofileid"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+    <item
+        android:id="@+id/galleryid"
+        android:icon="@drawable/ic_baseline_photo_24"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/settingid"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting" />
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corner"
+        app:itemIconTint="@color/icons_color"
+        app:itemRippleColor="@color/white"
+        app:menu="@menu/usermain_menu"/>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Upload Photos for advertisement"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewAdd"
+            android:layout_width="match_parent"
+            android:layout_height="299dp"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="0dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_baseline_image_24" />
+
+        <EditText
+            android:id="@+id/inputImageName"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageViewAdd"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="Enter the image name" />
+
+        <EditText
+            android:id="@+id/inputDescription"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/inputImageName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="40dp"
+            android:hint="Description of image" />
+
+    <EditText
+        android:id="@+id/inputcost"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/inputDescription"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="40dp"
+        android:hint="Cost" />
+
+        <EditText
+            android:id="@+id/inputNumber"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/inputcost"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="40dp"
+            android:hint="Contact No" />
+
+        <TextView
+            android:id="@+id/textviewProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inputNumber"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="0.0 %"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textviewProgress" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="318dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/progressBar"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="40dp"
+            android:text="Upload" />
+
+</RelativeLayout>

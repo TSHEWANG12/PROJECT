@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnSignup" type="id" />
+    <item name="Loginbtn" type="id" />
+    <item name="Forgotpassword" type="id" />
+    <item name="homedrawerlayout" type="id" />
+    <item name="homenav" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="inpuSearch" type="id" />
+    <item name="floatingbtn" type="id" />
+</resources>

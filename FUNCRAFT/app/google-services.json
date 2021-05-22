@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994408060370",
+    "project_id": "fun-craft-2ef0c",
+    "storage_bucket": "fun-craft-2ef0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994408060370:android:441de865a60cc710bfe40b",
+        "android_client_info": {
+          "package_name": "com.gcit.funcraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994408060370-u81mrfcskfl588lcha2ffvoahmsarldg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh5gCb3RRoWDM_E--j9fKtIkryWR6dZT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994408060370-u81mrfcskfl588lcha2ffvoahmsarldg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
