@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BBlood</string>
+
+
+    <array name="blood_groups">
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>O-</item>
+        <item>AB-</item>
+    </array>
+
+    <array name="states">
+        <item>Thimphu</item>
+        <item>Chukha</item>
+        <item>Wangdue</item>
+        <item>Monger</item>
+        <item>Gasa</item>
+        <item>Lhutshe</item>
+        <item>Pemagatshel</item>
+        <item>Samdrup Jongkhar</item>
+        <item>Tashigang</item>
+        <item>Tashi Yangtse</item>
+        <item>Zhemgang</item>
+        <item>Sarpang</item>
+        <item>Dagana</item>
+        <item>Trongsa</item>
+        <item>Punakha</item>
+        <item>Samtse</item>
+        <item>Paro</item>
+        <item>Haa</item>
+        <item>Tsirang</item>
+        <item>Bumthang</item>
+
+    </array>
+
+</resources>
+
+
