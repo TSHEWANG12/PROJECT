@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/shop" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:text="Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:text="Description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:text="Description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cost"
+            android:text="Name"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

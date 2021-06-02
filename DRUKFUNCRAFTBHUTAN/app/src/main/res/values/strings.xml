@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FunCraft</string>
+    <string name="choosefile">Choose File</string>
+    <string name="user_open">Open navigation drawer</string>
+    <string name="user_close">Close navigation drawer</string>
+    <string name="admin_navigation_drawer_open">Open navigation drawer</string>
+    <string name="admin_navigation_drawer_close">Close navigation drawer</string>
+    <string name="main_navigation_drawer_open">Open navigation drawer</string>
+    <string name="main_navigation_drawer_close">Close navigation drawer</string>
+    <string name="bout_us">
+        DrukFun Craft is an application that contains merchandise that\'s factory-made inside Bhutan.  On DrukFun Craft whether you’re searching for a Bhutanese product to shop for or to advertise your own product, this app can offer that platform. All you have to do is visit the main page which contains endless lists of lovely Bhutanese products and get engaged if you like the product by contacting the person in charge of the product. If you are going to advertise, all you have to do is get registered by
+        filling simple details. DrukFun Craft has the varity Bhutanese products which will be of your interest.We make it easy for you to discover and advertise your own products by providing user-friendly
+        interfaces. Some of the features this app will provide are:
+        •	View variety of Bhutanese products.
+View variety of Bhutanese handicraft products as soon as you enter the main page.
+•	Advertise your own product with just few clicks.
+Upload image and description of your product to be advertised with few simple clicks.
+DrukFun Craft provide you with feature to add products to your favorites.
+•	Edit your post to attract more viewers.
+Once posted, you can view your ow post and edit accordingly.
+
+
+    </string>
+</resources>

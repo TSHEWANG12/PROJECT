@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "706315767111",
+    "project_id": "dev-trees-314908",
+    "storage_bucket": "dev-trees-314908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706315767111:android:bc4cff46db15204cf9d062",
+        "android_client_info": {
+          "package_name": "com.gcit.drukFunCraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706315767111-u2tnmpn0juo3j7tlrbhl6ic9gcppq29f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCry_HcCxhpxmJgeksH0MUCTu4OUeM36ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706315767111-u2tnmpn0juo3j7tlrbhl6ic9gcppq29f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706315767111:android:8bf6c888d0e6946ff9d062",
+        "android_client_info": {
+          "package_name": "com.gcit.drukFuncraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706315767111-u2tnmpn0juo3j7tlrbhl6ic9gcppq29f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCry_HcCxhpxmJgeksH0MUCTu4OUeM36ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706315767111-u2tnmpn0juo3j7tlrbhl6ic9gcppq29f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
